@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public interface Update {
+public interface Update{
+    public void Update();
+
+    abstract void Update(int numAliveNeighbors);
 }
